@@ -1,14 +1,12 @@
+import React from 'react';
+import './Header.css';
+import pic from '../images/airbnb-logo.png';
 
 function Header()   {
     return(
-        <nav>
-            <h1>Sagar Restro</h1>
-            <ul>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+        <div className='header-content'>
+            <img src={pic} className='nav-logo'/>
+        </div>
     );
 }
 

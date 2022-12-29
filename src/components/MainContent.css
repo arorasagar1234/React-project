@@ -1,0 +1,23 @@
+.main-content {
+    max-height: calc(100% - 200px);
+    height: calc(100% - 200px);
+    overflow-y: auto;
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-grid {
+    max-width: 800px;
+    align-self: center;
+}
+
+.header-exp {
+    margin-bottom: 16px;
+}
+
+.header-text {
+    margin-top: 0;
+}
